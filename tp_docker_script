@@ -1,0 +1,9 @@
+docker create --name nginx_base -p 80:80 nginx:alpinedocker create --name nginx_base -p 80:80 nginx:alpine
+
+sudo docker image -a
+
+sudo docker ps -a
+
+docker run -d -p 80:80 docker/getting-started
+
+----> on google I wrote localhost:8080
